@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>PhotoHouse</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+            <!-- Header -->
+    <header class="header">
+        <div class="container">
+        <div class="header-content">
+            <!-- Logo -->
+            <div class="logo">
+            <svg class="camera-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"></path>
+                <circle cx="12" cy="13" r="3"></circle>
+            </svg>
+            <span class="logo-text">PhotoHouse</span>
+            </div>
+
+            <!-- Desktop Navigation -->
+            <nav class="desktop-nav">
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#services" class="nav-link">Services</a>
+            <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+            <svg class="menu-icon" id="menuIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+            <svg class="close-icon hidden" id="closeIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+            </button>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <nav class="mobile-nav hidden" id="mobileNav">
+            <a href="#portfolio" class="mobile-nav-link">Portfolio</a>
+            <a href="#about" class="mobile-nav-link">About</a>
+            <a href="#services" class="mobile-nav-link">Services</a>
+            <a href="#contact" class="mobile-nav-link">Contact</a>
+        </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+        <div class="hero-grid">
+            <!-- Text Content -->
+            <div class="hero-text">
+            <h1 class="hero-title">Capturing Moments That Last Forever</h1>
+            <p class="hero-description">
+                Professional photography services for weddings, portraits, and special events. 
+                Every photograph tells a unique story, and I'm here to help tell yours.
+            </p>
+            <div class="hero-buttons">
+                <a href="#portfolio" class="btn btn-primary">View Portfolio</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+            </div>
+
+            <!-- Image -->
+            <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1706661912295-bd1dc10ffe7f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBwaG90b2dyYXBoZXIlMjBwb3J0cmFpdHxlbnwxfHx8fDE3NzMzMDY3OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Professional photographer">
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Photo Styles Section -->
+    <section class="photo-styles">
+        <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Our Photography Styles</h2>
+            <p class="section-description">
+            Explore our diverse range of photography services tailored to capture your perfect moments
+            </p>
+        </div>
+
+        <div class="styles-grid">
+            <div class="style-card">
+            <div class="style-image-wrapper">
+                <img src="https://images.unsplash.com/photo-1627890458144-4c0c481bf4b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdHVkaW8lMjBwaG90b2dyYXBoeSUyMHBvcnRyYWl0fGVufDF8fHx8MTc3MzMwNjk4OHww&ixlib=rb-4.1.0&q=80&w=1080" alt="Studio photography" class="style-image">
+                <div class="style-overlay"></div>
+            </div>
+            <h3 class="style-label">Studio</h3>
+            </div>
+
+            <div class="style-card">
+            <div class="style-image-wrapper">
+                <img src="https://images.unsplash.com/photo-1494782611507-95b6d139e677?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvdXRkb29yJTIwcGhvdG9ncmFwaHklMjBuYXR1cmV8ZW58MXx8fHwxNzczMzA2OTg5fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Outdoor photography" class="style-image">
+                <div class="style-overlay"></div>
+            </div>
+            <h3 class="style-label">Outdoors</h3>
+            </div>
+
+            <div class="style-card">
+            <div class="style-image-wrapper">
+                <img src="https://images.unsplash.com/photo-1758613655322-8dc7822353f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwaG90b3Nob290JTIwc2Vzc2lvbiUyMGNhbWVyYXxlbnwxfHx8fDE3NzMzMDY5ODl8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Photo shoots" class="style-image">
+                <div class="style-overlay"></div>
+            </div>
+            <h3 class="style-label">Shoots</h3>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team">
+        <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Meet the Team</h2>
+            <p class="section-description">
+            Our talented professionals dedicated to capturing your perfect moments
+            </p>
+        </div>
+
+        <div class="team-grid">
+            <!-- Team Member 1 -->
+            <div class="team-card">
+            <div class="team-image-wrapper">
+                <img src="https://images.unsplash.com/photo-1724128197174-f864ac9811c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBwaG90b2dyYXBoZXIlMjBwb3J0cmFpdCUyMHdvbWFufGVufDF8fHx8MTc3MzMwNzE5N3ww&ixlib=rb-4.1.0&q=80&w=1080" alt="Sarah Mitchell" class="team-image">
+            </div>
+            <div class="team-info">
+                <h3 class="team-name">Sarah Mitchell</h3>
+                <p class="team-role">Lead Photographer</p>
+                <p class="team-description">Specializing in portraits and wedding photography with 10+ years of experience</p>
+                <div class="team-social">
+                <a href="#" class="social-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                </a>
+                <a href="#" class="social-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                    </svg>
+                </a>
+                </div>
+            </div>
+            </div>
+
+            <!-- Team Member 2 -->
+            <div class="team-card">
+            <div class="team-image-wrapper">
+                <img src="https://images.unsplash.com/photo-1762708550141-2688121b9ebd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBwaG90b2dyYXBoZXIlMjBwb3J0cmFpdCUyMG1hbnxlbnwxfHx8fDE3NzMzMDcxOTd8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Marcus Chen" class="team-image">
+            </div>
+            <div class="team-info">
+                <h3 class="team-name">Marcus Chen</h3>
+                <p class="team-role">Photographer</p>
+                <p class="team-description">Expert in commercial and outdoor photography with a creative eye for detail</p>
+                <div class="team-social">
+                <a href="#" class="social-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                </a>
+                <a href="#" class="social-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                    </svg>
+                </a>
+                </div>
+            </div>
+            </div>
+
+            <!-- Team Member 3 -->
+            <div class="team-card">
+            <div class="team-image-wrapper">
+                <img src="https://images.unsplash.com/photo-1740128041121-ae0e6be2fa43?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZSUyMGRlc2lnbmVyJTIwcHJvZmVzc2lvbmFsJTIwcG9ydHJhaXR8ZW58MXx8fHwxNzczMzA3MTk4fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Emma Rodriguez" class="team-image">
+            </div>
+            <div class="team-info">
+                <h3 class="team-name">Emma Rodriguez</h3>
+                <p class="team-role">Creative Designer</p>
+                <p class="team-description">Transforms raw images into stunning visual stories through expert editing</p>
+                <div class="team-social">
+                <a href="#" class="social-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                </a>
+                <a href="#" class="social-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                    </svg>
+                </a>
+                </div>
+            </div>
+            </div>
+
+            <!-- Team Member 4 -->
+            <div class="team-card">
+            <div class="team-image-wrapper">
+                <img src="https://images.unsplash.com/photo-1740153204804-200310378f2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxldmVudCUyMGNvb3JkaW5hdG9yJTIwcHJvZmVzc2lvbmFsJTIwcG9ydHJhaXR8ZW58MXx8fHwxNzczMzA3MTk4fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Jordan Taylor" class="team-image">
+            </div>
+            <div class="team-info">
+                <h3 class="team-name">Jordan Taylor</h3>
+                <p class="team-role">Set Coordinator</p>
+                <p class="team-description">Orchestrates seamless photoshoots with meticulous planning and execution</p>
+                <div class="team-social">
+                <a href="#" class="social-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                </a>
+                <a href="#" class="social-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                    </svg>
+                </a>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+        
+        <script src="./scripts.js" async defer></script>
+    </body>
+</html>
